@@ -1,0 +1,72 @@
+    1  ls
+    2  cd /homr
+    3  cd/home
+    4  cd /home
+    5  ls
+    6  rm test1_copy/*.php
+    7  ls test1_copy
+    8  apt update -y && apt install -y vim
+    9  cd /home
+   10  vi README.md
+   11  cd /home
+   12  ls
+   13  cd /root
+   14  mkdir server_lesson && cd server_lesson
+   15  apt update -y && apt install -y git
+   16  git version
+   17  git init
+   18  touch first.txt
+   19  mkdir linux_practice1 && cd linux_practice1
+   20  mkdir public
+   21  ls
+   22  cd public
+   23  touch index.php
+   24  ls
+   25  cp index.php index_bk.php
+   26  ls
+   27  cd linux_practice1
+   28  cd ..
+   29  ls
+   30  cp -r public tmp
+   31  ls
+   32  cd tmp
+   33  ls
+   34  rm index_bk.php
+   35  ls
+   36  cd /server_lesson
+   37  pwd
+   38  cd /root/server_lesson
+   39  touch README.md
+   40  ls
+   41  vim README.md
+   42  ls
+   43  mkdir linux_practice2
+   44  ls
+   45  cd linux_practice2
+   46  mkdir documents
+   47  cd documents
+   48  touch gizumo{01..50}.md
+   49  ls
+   50  cd ..
+   51  ls
+   52  mkdir trash
+   53  ls
+   54  mv documents/gizumo{20..40}.md trash/
+   55  ls
+   56  cd trash
+   57  ls
+   58  pwd
+   59  cd /server_lesson/linux_practice2/
+   60  cd /server_lesson/linux_practice2
+   61  cd ..
+   62  touch .gitignore
+   63  ls
+   64  ls -a
+   65  vim .gitignore
+   66  git status --ignored
+   67  history 300
+   68  ls
+   69  touch exec_command.log
+   70  ls
+   71  history 300
+   72  history 300 > exec_command.log
